@@ -1,0 +1,23 @@
+{
+  "name": "5dbt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbt1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hk3cjames/r4-DB-t.git"
+  },
+  "author": "james wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hk3cjames/r4-DB-t/issues"
+  },
+  "homepage": "https://github.com/hk3cjames/r4-DB-t#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}

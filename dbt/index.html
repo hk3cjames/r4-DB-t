@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>RBAS DB-T</title>
+  <style>
+    * {
+      font-family: Courier, monospace;
+    }
+
+    body {
+      font-size: 3mm;
+    }
+
+    .top1 {
+      display: grid;
+      grid-template-columns: 4fr 6fr 7fr;
+      text-align: center;
+      background-color: rgb(200, 255, 255);
+    }
+
+    h1 {
+      font-size: 4em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 3em;
+      text-align: center;
+    }
+
+    h3 {
+      border: 1px solid rgb(168, 168, 168);
+      background-color: rgb(253, 251, 247);
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 3em;
+      margin: 8mm;
+    }
+
+    h4 {
+      border: 1px solid rgb(168, 168, 168);
+      background-color: rgb(253, 251, 247);
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 5em;
+      margin: 8mm;
+    }
+
+    h5 {
+      text-align: left;
+      font-size: 2em;
+      margin: 8mm;
+      margin-top: 12mm;
+      margin-bottom: 0mm;
+    }
+
+    p {
+      border: 1px solid rgb(168, 168, 168);
+      background-color: rgb(253, 251, 247);
+      font-weight: normal;
+      font-size: 2em;
+      text-align: center;
+      margin: 0mm;
+      margin-right: 5mm;
+      padding: 0.5mm;
+      padding-left: 5mm;
+      padding-right: 5mm;
+    }
+    p2 {
+      background-color: rgb(200, 255, 255);
+      font-weight: normal;
+      font-size: 3em;
+      text-align: center;
+      padding-left: 5mm;
+      padding-right: 5mm;
+    }
+    .itemDisp {
+      font-size: 19px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top1">
+    <div class="top10">
+      <h1 id="dbtCode">RBAS DBT = 1 </h1>
+      <h5>0.1S sync</h5>
+      <h3 id="sync">2</h3>
+      <h5>cycle </h5>
+      <h4 id="tick">100000000000023456</h4>
+      <h5>time</h5>
+      <h3 id="time">23:23:45</h3>
+      <h5>total hash </h5>
+      <h3 id="inputTotal">12345</h3>
+      <h5>cycle hash input</h5>
+      <h3 id="inputCycle">12345</h3>
+      <h5>total query count</h5>
+      <h3 id="queryTotal">12345</h3>
+      <h5>cycle query count</h5>
+      <h3 id="queryCycle">12345</h3>      
+      <h5>DB-t summary hash</h5>
+      <h3 id="dbtHash">1234567890abcdef </h3>
+
+    </div>
+    <div class="top11">
+      <h3>most recent hash input</h3>
+        <div>
+          <p2> tick . . . hash . . . . . . . . . . . . . . . . . . . ps . ts </p2>
+            <br>
+            <br>            
+            <div>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>         
+            </div>
+            <br>
+            <div>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>         
+            </div>
+            <br>
+            <div>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>         
+            </div>
+            <br>
+            <div>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>         
+            </div>
+            <br>
+            <div>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>
+              <p name="recentInput">
+                1000000000000000 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000 1000
+              </p>         
+            </div>
+            <br>
+            <br>           
+            <br>
+        </div>
+    </div>
+    <div class="top11">
+
+      <h3>most recent Query</h3>
+      <div>
+        <p2> time . QS .. hash . . . . . . . . . . . . . . . . . . tick . . ps . ts </p2>
+          <br>
+          <br>            
+          <div>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+          </div>
+          <br>
+          <div>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+          </div>
+          <br>
+          <div>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+          </div>
+          <br>
+          <div>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+          </div>
+          <br>
+          <div>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+            <p name = "recentQuery">
+              12:12:34 1234 1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef 1000000000000 1000 1000
+            </p>
+          </div>
+          <br>
+      </div>
+    </div>
+
+    <script src="dbt.js">
+    </script>
+</body>
+
+</html>
