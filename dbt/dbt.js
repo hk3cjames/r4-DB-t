@@ -20,9 +20,9 @@ const options = {
     method: "POST",
 };
 async function intervalFunc() {
-    document.getElementById("sync").textContent = syncDisp[syncphase];
     syncphase++
-    if (syncphase > 9) syncphase = 0
+    if (syncphase > 9) syncphase = 0    
+    document.getElementById("sync").textContent = syncDisp[syncphase];
     const d = new Date();
     var str1 = "" + d;
     var timeDisp = str1.substring(4, 24);
@@ -49,18 +49,16 @@ async function intervalFunc() {
             for (i = 0; i < 50; i++) {
                 k = disp.recentInput.riTick[i]
                 l = disp.recentInput.riHash[i]
-                m = disp.recentInput.riPs[i]
-                n = disp.recentInput.riTs[i]
+                m = disp.recentInput.riId[i]
                 document.getElementsByName("recentInput")[i].textContent = 
-                k + " " + l + " "+ m + " "+ n
+                k + " " + l + " "+ m 
                 k = disp.recentQuery.rqTime[i]
                 l = disp.recentQuery.rqQs[i]
                 m = disp.recentQuery.rqHash[i]
                 n = disp.recentQuery.rqTick[i]
-                o = disp.recentQuery.rqPs[i]
-                p = disp.recentQuery.rqTs[i]
+                o = disp.recentQuery.rqId[i]
                 document.getElementsByName("recentQuery")[i].textContent = 
-                k + " " + l + " "+ m + " "+ n+ " "+ o + " "+ p
+                k + " " + l + " "+ m + " "+ n+ " "+ o 
             }
             wait = 0
             break;
